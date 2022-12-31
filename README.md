@@ -1,7 +1,7 @@
 # PROJECTS
 
 
-### 1-) Party Event Systems with Relations
+### 1-) Party Event Systems Queries with Apollo Graphql
     
     Used Technologies:
         - @apollo-server

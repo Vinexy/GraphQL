@@ -14,9 +14,11 @@
   },
   "dependencies": {
     "@apollo/server": "^4.2.1",
+    "@reduxjs/toolkit": "^1.9.1",
     "apollo-server": "^3.11.1",
     "apollo-server-core": "^3.11.1",
-    "graphql": "^16.6.0"
+    "graphql": "^16.6.0",
+    "nanoid": "^4.0.0"
   },
   "description": ""
 }

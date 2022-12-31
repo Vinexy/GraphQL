@@ -3,6 +3,7 @@ import { ApolloServer } from "@apollo/server";
 import { ApolloServerPluginLandingPageGraphQLPlayground } from "apollo-server-core";
 
 import { startStandaloneServer } from "@apollo/server/standalone";
+import { nanoid } from 'nanoid'
 
 const typeDefs = `#graphql
     type User{
@@ -55,9 +56,12 @@ const typeDefs = `#graphql
       participant(id: ID!): Participant
 
     }
+
+    
 `;
 
 const resolvers = {
+
   Query: {
     users: () => Data.users,
     user: (parent, args) =>
